@@ -1,0 +1,282 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 53px;
+    width: 100%;
+    background-color: black;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 100px;
+    float:left;
+    margin-left: 20px;
+    margin-top: 2px;
+} 
+
+.header-right {
+    float:right;
+    padding-right: 150px;
+}
+
+.header-right a {
+    line-height: 53px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(228, 227, 227, 0.9);
+    color: black;
+}
+
+.welcome{
+    width:100%;
+    height:613px;
+    background-image:url("Images/bg.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    position: relative;
+}
+
+.welcome img{
+    height:613px;
+    position:absolute;
+    padding-left: 880px;
+    padding-top: 80px;
+}
+
+.home{
+    position: absolute;
+    margin-left:100px;
+    margin-top:200px;
+}
+
+.home h1{
+    font-family: calibri;
+    font-weight:bold;
+    color:#6d6d6d;
+    font-size:22px;
+}
+
+.home h2{
+    font-family:calibri;
+    font-weight:bold;
+    letter-spacing:1px;
+    color:#1a1a1a;
+    font-size:60px;
+}
+
+.home p{
+    font-family: myriad pro regular;
+    color: #403e3e;
+    font-size:30px;
+    line-height:30px;
+}
+
+.about{
+    border-top: 5px solid #343009;
+    border-bottom:  5px solid #343009;
+    width: 100%;
+    background-color: rgb(255,255,0);
+}
+
+.img-left{
+    float: left;
+    height: 350px;
+    padding-left: 50px;
+}
+
+.img-right{
+    float: right;
+    height: 350px;
+    padding-right: 50px;
+}
+
+.about-text{
+    text-align: center;
+    height: 350px;
+    width:1000px;
+    margin-left: 210px;
+}
+
+.about-text h1{
+    font-family: myriad pro;
+    font-weight:bold;
+    font-size:50px;
+    padding-top: 25px;
+}
+
+.about-text h2{
+    color:#3e3d3d;
+    font-size:20px;
+    font-family: myriad pro;
+    font-weight:bold;
+}
+
+.about-text p{
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+    padding: 20px 5px 0px 5px;
+}
+
+.skills{
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 500px;
+    background-color: #ddd9d9;
+    text-align: center;
+}
+
+.heading{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 35px;
+    color: #000000;
+}
+
+.skill{
+    float: left;
+    width: 25%;
+}
+
+.skill img{
+    height: 250px;
+}
+
+.skill p{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.project{
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 500px;
+    background-color: #ddd9d9;
+    text-align: center;
+}
+
+.project h2{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 50px;
+}
+
+.project-title{
+    float: left;
+    width: 33%;
+}
+
+.project-title img{
+    height: 250px;
+}
+
+.project-title p{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.project-title a {
+    line-height: 50px;
+    margin-left: 70px;
+    padding: 0 25px;
+    color: rgb(0, 0, 0);
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.project-title a:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(255, 255, 255);
+}
+
+.contact{
+    width: 100%;
+    height:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.contact p{
+    color:#000000;
+    font-size: 35px;
+    font-weight:bold;
+    padding-bottom: 30px;
+}
+
+.contact-btn {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contact-btn p {
+    margin: 10px 0;
+}
+
+.gmail {
+    background-color: #ff0000;
+}
+
+.linkedin {
+    background-color: #0a348f;
+    margin-right: 10px;
+}
+
+.github {
+    background-color: #000000;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+footer{
+    height:25px;
+    background-color:teal;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
